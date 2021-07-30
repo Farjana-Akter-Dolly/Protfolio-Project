@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 241, 224);
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color:lightblue;
+    padding: 20px;
+}
+
+/* header start */
+.my-img{
+    width: 100px;
+    height:120px;
+    border:3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.hearder-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    width:bold;
+    float: right;
+}
+.header-contact a:hover{
+    color: black;
+}
+.clear{
+    clear: both;
+}
+hr{
+    margin: 20px auto;
+    width: bold;
+    border: 2px solid black;
+    border-bottom: none;
+}
+/* header end */
+
+
+/* pertion-section start */
+.left{
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+.right{
+    width: 70%;
+    float: left;
+    padding: 15px;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* pertion-section end */
+
+
+
+/* footer start */
+.footer{
+   background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: bold;
+}
+.footer p{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: bold;
+}
+/* footer end */
